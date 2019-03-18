@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RestController;
  * */
 @RestController
 public class HelloController {
-    @RequestMapping(value = "/hello",method = RequestMethod.GET)
-    public String getHello(){
+    @RequestMapping(value = "/hello", method = RequestMethod.GET)
+    public String getHello() {
         return "Hello,Spring Boot..";
     }
 
